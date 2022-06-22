@@ -4,21 +4,18 @@
  */
 package com.moive.basicjava;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 /**
  *
  * @author USER
  */
 public class Main {
 
-    public static void main(String[] args) {
-        Integer age = 18;
-        Boolean isAdult = age >= 18;
-
-        if (isAdult) {
-            System.out.println("Is adult");
-        }else{
-            System.out.println("Is younger");
-        }
+    public static void main(String[] args) throws IOException {
+        Person.main(args);
     }
 
 }
