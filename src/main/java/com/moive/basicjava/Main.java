@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         //Person.main(args);
         
-        MajorNumber.Main(args);
+        AverageNumbers.Main(args);
     }
 
 }
