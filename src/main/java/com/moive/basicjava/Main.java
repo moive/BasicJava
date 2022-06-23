@@ -15,7 +15,9 @@ import java.io.InputStreamReader;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Person.main(args);
+        //Person.main(args);
+        
+        MajorNumber.Main(args);
     }
 
 }
